@@ -1,0 +1,36 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+
+.logo {
+  object-fit: cover;
+  object-position: center;
+  width: 80px;
+  height: 40px;
+}
+
+/* Carousel */
+
+.img-corousel {
+  height: calc(100vh - 76px);
+  object-fit: cover;
+  object-position: center top;
+}
+
+.img-card {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.frame-video {
+  width: 100%;
+  height: 250px;
+}
